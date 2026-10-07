@@ -1,0 +1,37 @@
+body {
+  background: url("batman.jpg") center / cover no-repeat fixed;
+  min-height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.card {
+  background: white;
+  width: 300px;
+  padding: 24px;
+  border-radius: 24px;
+  text-align: center;
+  height: fit-content;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
